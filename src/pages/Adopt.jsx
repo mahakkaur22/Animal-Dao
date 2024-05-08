@@ -14,7 +14,7 @@ const Adopt = () => {
 
   const [reload, setReload] = useState(true);
   const [formData, setFormData] = useState([]);
-  if (formData === []) {
+  if (formData.lenngth === 0) {
     setReload(false);
   }
   useEffect(() => {
