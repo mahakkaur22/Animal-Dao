@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/wjp8wpq.css");
+
+.CounterHeroContainer {
+  font: inherit;
+  color: #fff;
+  padding: 10px;
+  background: transparent;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.CounterHeroTextContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 30px;
+}
+.CounterHeroText1 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.CounterHeroText2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 425px) {
+  .CounterHeroContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

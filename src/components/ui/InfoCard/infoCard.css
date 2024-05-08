@@ -1,0 +1,15 @@
+.info-card
+{
+    width: 60%;
+    height:35vh;
+    background:#343444  !important; 
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.heading 
+{
+    color: #fff;
+    font-weight: 600;
+}

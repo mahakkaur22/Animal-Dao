@@ -1,0 +1,56 @@
+.form__input input,
+.form__input textarea {
+  width: 100%;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(221, 221, 221, 0.171);
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__input {
+  margin-bottom: 15px;
+}
+
+.form__input label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form__input .upload__input {
+  padding: 40px 25px;
+}
+.span-type{
+  width: 100%;
+  color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  /* justify-content:center; */
+  /* align-items: center; */
+  gap: 10px;
+
+}
+.animalType{
+  display: grid;
+  /* grid-template-columns:1fr 1fr 1fr 1fr;  */
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+
+  /* flex-direction: column;
+  justify-content:center;
+  align-items: center; */
+  color: #fff;
+
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .create__item {
+    margin-top: 15px;
+  }
+}
